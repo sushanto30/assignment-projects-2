@@ -31,8 +31,98 @@
 
  .bg-img-container {
      width: 1170px;
-     height: 500px; 
+     height: 500px;
      margin: 0px auto;
      background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+     padding-top: 106px;
+     background-repeat: no-repeat;
+
  }
-  
+
+ .banner-container {
+     text-align: center;
+
+
+ }
+
+ .bg-img-container h1 {
+     color: #FFF;
+     font-size: 64px;
+     font-weight: 800;
+ }
+
+ .bg-img-container p {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .travel-input {
+     display: flex;
+ }
+
+ .banner-input {
+     display: flex;
+     padding-left: 200px;
+     border: none;
+     border-radius: 8px;
+     gap: 24px;
+     width: 174px;
+     height: 52px;
+ }
+
+ .banner-input input {
+     padding: 16px;
+ }
+
+ .but-primary button {
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     border: none;
+     background: #FF5400;
+     padding: 16px;
+
+ }
+ #tour{
+    margin: 100px 135px;
+ }
+
+ .title-img-container {
+     display: flex;
+    
+     gap: 30px;
+
+
+ }
+
+ .discreaption-title {
+     /* width: 1440px; */
+     /* height: 6940px; */
+ }
+
+
+
+
+ @media screen and (min-width:992px) {
+     .bg-img-container {
+         width: 75%;
+     }
+
+     .banner-input {
+         padding-left: 100px;
+     }
+ }
+
+ @media screen and (max-width:600px) {
+     .bg-img-container {
+         width: 50%;
+     }
+
+
+     .banner-input {
+         flex-direction: column;
+         gap: 2px;
+         padding-left: 90px;
+     }
+ }
