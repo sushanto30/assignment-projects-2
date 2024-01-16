@@ -19,7 +19,7 @@
  }
 
  .travel-color,
- #home-color {
+ #home-color,.footer-title {
      color: #FF5400;
  }
 
@@ -169,19 +169,53 @@
      border: 1px solid rgba(41, 206, 246, 0.20);
      background: rgba(41, 206, 246, 0.05);
  }
-  
+
 
  .choose-item-3 {
      width: 573px;
-     height: 284px; 
+     height: 284px;
      padding: 20px;
      border-radius: 16px;
      border: 1px solid rgba(233, 68, 68, 0.20);
      background: rgba(233, 68, 68, 0.05);
      margin: 20px auto;
-     
+
  }
 
+ .news-container {
+     display: flex;
+     margin: 20px 170px;
+     gap: 20px;
+ }
+
+ .Newsletter {
+     border: 2px solid #FF5400;
+     background: #FFF;
+     padding: 5px;
+ }
+
+ .news-input {
+     display: grid;
+     grid-row: auto;
+     gap: 20px;
+     width: 400px;
+     /* height: 62px; */
+     height: 50%;
+     padding: 41px;
+ }
+
+ .news-input button {
+    border: 0px;
+    border-radius: 8px;
+     background: #FF5400;
+     color: #FFF;
+ }
+ .footer{
+    text-align: center;
+    margin: 50px 330px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+ }
 
 
 
