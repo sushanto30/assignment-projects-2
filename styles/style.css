@@ -84,21 +84,102 @@
      padding: 16px;
 
  }
- #tour{
-    margin: 100px 135px;
+
+ #tour {
+     margin: 100px 135px;
  }
 
  .title-img-container {
      display: flex;
-    
+
      gap: 30px;
 
 
  }
 
- .discreaption-title {
-     /* width: 1440px; */
-     /* height: 6940px; */
+ .destination-title h2 {
+     color: #131318;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .destination-title p {
+     color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .destination-img-1 {
+     margin: 20px 170px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .destination-img-2 {
+     margin: 5px, 140px;
+     margin-left: 170px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr) 100px 200px 100px;
+     gap: 20px;
+ }
+
+ .destination-img-3 {
+     margin: 20px 170px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .choose-item {
+     color: #131318;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .choose-item p {
+     color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .choose-item-2 {
+     display: flex;
+     margin: 20px 170px;
+     gap: 20px;
+
+ }
+
+ .Choose-hotel {
+     width: 573px;
+     height: 284px;
+     padding: 20px;
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+ }
+
+ .Choose-map {
+     width: 573px;
+     height: 284px;
+     padding: 20px;
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+ }
+  
+
+ .choose-item-3 {
+     width: 573px;
+     height: 284px; 
+     padding: 20px;
+     border-radius: 16px;
+     border: 1px solid rgba(233, 68, 68, 0.20);
+     background: rgba(233, 68, 68, 0.05);
+     margin: 20px auto;
+     
  }
 
 
@@ -116,7 +197,8 @@
 
  @media screen and (max-width:600px) {
      .bg-img-container {
-         width: 50%;
+         width: 100%;
+         padding: 0px;
      }
 
 
@@ -124,5 +206,17 @@
          flex-direction: column;
          gap: 2px;
          padding-left: 90px;
+     }
+
+     .title-img-container {
+         flex-direction: column-reverse;
+     }
+
+     #tour {
+         margin: 0px;
+     }
+
+     .div-img-2 {
+         max-width: 100%;
      }
  }
